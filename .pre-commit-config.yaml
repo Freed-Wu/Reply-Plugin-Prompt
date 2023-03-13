@@ -27,13 +27,13 @@ repos:
     hooks:
       - id: remove-crlf
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.2.2
+    rev: v2.2.4
     hooks:
       - id: codespell
         additional_dependencies:
           - tomli
   - repo: https://github.com/jorisroovers/gitlint
-    rev: v0.19.0dev
+    rev: v0.19.1
     hooks:
       - id: gitlint
         args:
@@ -71,7 +71,7 @@ repos:
         additional_dependencies:
           - markdown-it-texmath@0.9.1
   - repo: https://github.com/perltidy/perltidy
-    rev: "20230309"
+    rev: "20230309.01"
     hooks:
       - id: perltidy
   - repo: https://github.com/Freed-Wu/pre-commit-hooks
